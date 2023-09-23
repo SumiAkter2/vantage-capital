@@ -36,9 +36,9 @@ const About = () => {
                 staying abreast of market trends. At Vantage Capital fx, we
                 stand out through our unwavering dedication to exceptional
                 service, proactive risk management, and our passion for helping
-                clients achieve their financial aspirations. We have a
-                partnership with Tradeview, which is considered one of the best
-                brokerage firms in the world.
+                clients achieve their financial aspirations. We have partnered
+                with the best brokerage firms in the world, which is considered
+                one of the best brokerage firms in the world.
               </p>
             </div>
           </div>
