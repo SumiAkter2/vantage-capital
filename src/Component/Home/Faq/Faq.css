@@ -1,0 +1,12 @@
+.faq-bg {
+    background: url('../../../assets/Home/Banner/about.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .faq-content{
+    background: #000;
+    opacity: 70;
+} */
