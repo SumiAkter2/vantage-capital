@@ -1,6 +1,7 @@
 import About from "./About";
 import Affiliate from "./Affiliate/Affiliate";
 import Banner from "./Banner/Banner";
+import OpenAccount from "./OpenAccount";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Services />
       <Affiliate />
       <Testimonial />
+      <OpenAccount />
     </div>
   );
 };
