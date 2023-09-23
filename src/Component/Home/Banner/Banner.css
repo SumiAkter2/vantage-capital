@@ -1,0 +1,8 @@
+.banner-bg{
+    background: url('../../../assets/Home/Banner/bg1.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #1ba9ca; */
+  
+}
