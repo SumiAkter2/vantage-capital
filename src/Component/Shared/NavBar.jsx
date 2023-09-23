@@ -4,22 +4,22 @@ import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
 const Navbar = () => {
   const navItem = (
     <>
-      <li>
+      <li className="mr-2">
         <Link to="/">Affiliate</Link>
       </li>
-      <li>
+      <li className="mr-2">
         <Link to="/">Services</Link>
       </li>
-      <li>
+      <li className="mr-2">
         <Link to="/">Resources</Link>
       </li>
-      <li>
+      <li className="mr-2">
         <Link to="/">Testimonials</Link>
       </li>
-      <li>
+      <li className="mr-2">
         <Link to="/">FAQ</Link>
       </li>
-      <li>
+      <li className="mr-2">
         <Link to="/">Contact Us</Link>
       </li>
     </>
@@ -47,7 +47,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className=" menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
             >
               {navItem}
             </ul>

@@ -1,7 +1,7 @@
 import "./Affiliate.css";
 const Affiliate = () => {
   return (
-    <section className="my-12">
+    <section className="my-12" >
       <div className="hero min-h-screen affiliate-bg ">
         <div className="hero-overlay bg-black bg-opacity-80"></div>
 
