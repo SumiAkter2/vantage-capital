@@ -1,11 +1,14 @@
 import "./Footer.css";
-import BrandLogo from "../../../assets/Logo/brand-logo-2.png";
+import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png";
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10  text-white footer-bg">
         <aside>
-          <img className="w-32" src={BrandLogo} alt="brand-logo" />
+          <div className="flex justify-center items-center">
+            <img className="w-12" src={BrandLogo} alt="brand-logo" />
+            <p className="text-2xl font-bold"> Vantage Capital Fx</p>
+          </div>
           <p>Unlock Your Financial Success</p>
         </aside>
         <nav>
