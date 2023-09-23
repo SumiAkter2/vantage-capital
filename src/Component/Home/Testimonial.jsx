@@ -13,11 +13,12 @@ const Testimonial = () => {
       <div>
         <div className="lg:px-24 px-6 py-6 ">
           <h1
-            className="text-secondary text-3xl lg:text-5xl font-bold text-center"
+            className="text-black text-3xl lg:text-5xl font-bold text-center mb-12"
             data-aos="fade-down"
           >
-            What Clients Say
-          </h1>
+            What Our Clients Say
+                  </h1>
+                  
           <Swiper
             autoplay={{
               delay: 2500,
@@ -36,7 +37,7 @@ const Testimonial = () => {
           >
             {client.map((c) => (
               <SwiperSlide key={c.id}>
-                <div className="hero min-h-screen text-black ">
+                <div className="hero  text-black ">
                   <div className="hero-content flex-col lg:flex-row">
                     <img
                       src={c.img}
@@ -44,7 +45,7 @@ const Testimonial = () => {
                       alt="man-img"
                     />
                     <div className=" text-start lg:w-1/2 px-6">
-                      <h1 className="text-5xl font-bold text-primary">
+                      <h1 className="text-4xl font-bold text-primary">
                         {c.name}
                       </h1>
                       <p className="py-6 ">{c.des}</p>
