@@ -29,7 +29,7 @@ const Navbar = () => {
         <a href="# " className=" flex justify-center items-center">
           <img src={logo} alt="logo" className="md:w-12 w-8" />
           <p className="text-white pl-2 md:text-xl text-sm">
-            Vantage Capital Fx
+            Vantage Capital FX
           </p>
         </a>
       </div>

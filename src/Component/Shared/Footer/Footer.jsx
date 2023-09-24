@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex justify-center items-center">
               <img className="w-12 mr-2" src={BrandLogo} alt="brand-logo" />
               <div className="text-white">
-                <p className="text-2xl font-bold"> Vantage Capital Fx</p>
+                <p className="text-2xl font-bold"> Vantage Capital FX</p>
                 <p className="font-semibold mt-1">
                   Unlock Your Financial Success
                 </p>
@@ -42,7 +42,7 @@ const Footer = () => {
               </a>
               <a
                 className="hover:text-primary"
-                href="https://www.facebook.com/profile.php?id=100094119369342"
+                href="https://www.facebook.com/vantagecapitalfx"
                 target="_blank"
                 rel="noreferrer"
               >

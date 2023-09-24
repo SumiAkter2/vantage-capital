@@ -17,9 +17,9 @@ const Affiliate = () => {
             <p className="mt-4">
               Are you a motivated individual looking for a rewarding opportunity
               in the financial industry? Become an affiliate with Vantage
-              CapitalFX and unlock a world of earning potential. As expert money
-              managers, we are seeking dedicated agents who can bring clients to
-              us, opening accounts with our trusted partner broker.
+              Capital FX and unlock a world of earning potential. As expert
+              money managers, we are seeking dedicated agents who can bring
+              clients to us, opening accounts with our trusted partner broker.
             </p>
             <p className="mt-4">
               Here's how it works: Our team of seasoned professionals will
@@ -32,7 +32,7 @@ const Affiliate = () => {
               rebates.
             </p>
             <p className="mt-4">
-              With Vantage CapitalFX's affiliate program, you can capitalize on
+              With Vantage Capital FX's affiliate program, you can capitalize on
               the booming financial markets and enjoy a substantial income
               stream. Whether you're a financial enthusiast, an influencer, or
               someone passionate about connecting people with exceptional

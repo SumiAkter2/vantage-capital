@@ -12,16 +12,12 @@
 }
 
 .shadow__btn {
-    background: #1ba9ca;
+    background: #1baacaa4;
     opacity: 20;
-    box-shadow: 0 0 25px #1ba9ca;
+    box-shadow: 0 0 25px #1baacaa5;
 }
 
 .shadow__btn:hover {
-    box-shadow: 0 0 5px #1ba9ca,
-   
-        0 0 25px #1ba9ca,
-        0 0 50px #1ba9ca,
-        0 0 100px #1ba9ca;
-        opacity: 10;
+   top: 10px;
+   background: #000;
 }

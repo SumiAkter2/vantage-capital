@@ -7,7 +7,7 @@ export const faqInfo = [
   {
     id: 2,
     qs: "What is Vantage Capital's profit-sharing model?",
-    ans: "Vantage Capital's profit-sharing model is 40%/60%, where clients take 60% and Vantage Capital fx takes 40%",
+    ans: "Vantage Capital's profit-sharing model is 40%/60%, where clients take 60% and Vantage Capital FX takes 40%",
   },
   {
     id: 3,
@@ -16,12 +16,12 @@ export const faqInfo = [
   },
   {
     id: 4,
-    qs: "What is the minimum investment required to open an account with Vantage Capital fx?",
-    ans: "The minimum investment required to open an account with Vantage Capital fx is not specified on their website. However, according to our Partner , Tradeview requires a minimum deposit of $100",
+    qs: "What is the minimum investment required to open an account with Vantage Capital FX?",
+    ans: "The minimum investment required to open an account with Vantage Capital FX is not specified on their website. However, according to our Partner , Tradeview requires a minimum deposit of $100",
   },
   {
     id: 5,
-    qs: "How does Vantage Capital fx ensure the security of my investments?",
-    ans: "Vantage Capital fx employs a meticulous risk management approach, integrating industry best practices to safeguard your investments and minimize exposure to potential risks. Additionally, Vantage Capital fx has a partnership with Tradeview, which is considered one of the best brokerage firms in the world",
+    qs: "How does Vantage Capital FX ensure the security of my investments?",
+    ans: "Vantage Capital FX employs a meticulous risk management approach, integrating industry best practices to safeguard your investments and minimize exposure to potential risks. Additionally, Vantage Capital FX has a partnership with Tradeview, which is considered one of the best brokerage firms in the world",
   },
 ];

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 const Resource = () => {
   return (
@@ -20,11 +20,11 @@ const Resource = () => {
         </div>
 
         <p className="py-4 text-white">
-          With Vantage Capital fx, you can confidently entrust your investments
+          With Vantage Capital FX, you can confidently entrust your investments
           to our skilled traders and cutting-edge strategies. We work diligently
           to ensure that your hard-earned money is actively working for you,
-          delivering the best possible returns.Stay informed and empowered to
-          make well-informed investment decisions.We also offer an opportunity
+          delivering the best possible returns. Stay informed and empowered to
+          make well-informed investment decisions. We also offer an opportunity
           for you to become our agent by referring people to us. Make money as
           they make money every day, up to 7% of their profit made plus a 20%
           portion of the rebate fees.
@@ -37,9 +37,14 @@ const Resource = () => {
             slidesPerView={3}
             spaceBetween={30}
             centeredSlides={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: false,
+            // }}
+            style={{
+              "--swiper-navigation-color": "#1ba9ca",
+              "--swiper-pagination-color": "#1ba9ca",
+              "--swiper-pagination-bullet-inactive-color": "#fff",
             }}
             pagination={{
               clickable: true,
@@ -47,12 +52,12 @@ const Resource = () => {
             navigation={{
               clickable: true,
             }}
-            modules={[Autoplay, Pagination, Navigation]}
+            modules={[Pagination, Navigation]}
             className="mySwiper hidden"
           >
             {resourceInfo.map((info) => (
               <SwiperSlide key={info.id}>
-                <div className="card w-96 h-[280px] bg-white shadow-xl text-black p-6 mb-12 border-primary border-4">
+                <div className="card w-96 h-[280px] bg-white shadow-xl text-black p-6 mb-12 border-primary border-4 ">
                   <figure>
                     <img className="w-16 " src={info.img} alt="icon" />
                   </figure>

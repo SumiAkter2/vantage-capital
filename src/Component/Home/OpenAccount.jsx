@@ -11,7 +11,7 @@ const OpenAccount = () => {
             <p className="pb-8">
               Explore our range of services, open an account, or reach out to
               our knowledgeable team for personalized guidance tailored to your
-              financial goals
+              financial goals.
             </p>
             <PrimaryButton title={"Open An Account"}></PrimaryButton>
           </div>

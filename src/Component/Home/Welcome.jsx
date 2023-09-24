@@ -10,7 +10,7 @@ const Welcome = () => {
               You are most welcome
             </p>
             <h1 className="text-4xl font-bold mb-6">
-              Welcome to Vantage Capital fx
+              Welcome to Vantage Capital FX
             </h1>
             <p className="py-6 text-xl">
               Your trusted partner for expert MAM account management services

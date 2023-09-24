@@ -25,7 +25,7 @@ export const services = [
     id: 3,
     icon: Fund,
     name: "Profit-Sharing Model",
-    dis: "Our transparent profit-sharing model ensures a fair and mutually beneficial arrangement. We are committed to aligning our interests with yours, as your success directly impacts ours. Our profit-sharing model is 40%/60%, where clients take 60% and Vantage Capital fx takes 40% ",
+    dis: "Our transparent profit-sharing model ensures a fair and mutually beneficial arrangement. We are committed to aligning our interests with yours, as your success directly impacts ours. Our profit-sharing model is 40% / 60%, where clients take 60% and Vantage Capital FX takes 40%. ",
   },
   {
     id: 4,

@@ -14,7 +14,7 @@ const Banner = () => {
                   Unlock Your Financial Success
                 </h1>
                 <p className="py-6 mb-6">
-                  Choose Vantage CapitalFX for Professional Forex Account
+                  Choose Vantage Capital FX for Professional Forex Account
                   Management
                 </p>
                 <div className="flex justify-center">
