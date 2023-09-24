@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="hero min-h-screen ">
             <div className=" text-center">
               <div className="max-w-md">
-                <h1 className="text-5xl font-bold my-4">
+                <h1 className="md:text-5xl text-4xl font-bold my-4">
                   Unlock Your Financial Successe
                 </h1>
                 <p className="py-6 mb-6">

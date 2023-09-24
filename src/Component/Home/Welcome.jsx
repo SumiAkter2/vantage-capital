@@ -5,7 +5,7 @@ const Welcome = () => {
       <div className="hero min-h-screen text-black mb-24">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={welcomeImg} className="md:max-w-lg rounded-lg " />
-          <div className="w-1/2 ">
+          <div className="md:w-1/2 px-6">
             <p className="text-primary my-2 font-semibold ">
               You are most welcome
             </p>

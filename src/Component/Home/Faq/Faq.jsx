@@ -12,7 +12,7 @@ import { faqInfo } from "../../../Info/FaqInfo";
 const Faq = () => {
   return (
     <section className="my-12 text-black" >
-      <h1 className="text-4xl font-semibold text-center mb-12">
+      <h1 className="text-4xl font-bold text-center mb-12 px-6">
         Frequently Asked Questions
       </h1>
       <div className="  faq-bg ">

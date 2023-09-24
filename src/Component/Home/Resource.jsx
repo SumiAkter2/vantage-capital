@@ -14,7 +14,7 @@ const Resource = () => {
       <div className="bg-black   p-12 ">
         <div className="text-center my-6">
           <p>Be a part with us</p>
-          <h1 className="text-5xl text-primary font-bold ">
+          <h1 className="md:text-5xl text-4xl text-primary font-bold ">
             Unleash the Potential of Forex Trading
           </h1>
         </div>
