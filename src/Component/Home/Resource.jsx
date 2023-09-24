@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const Resource = () => {
   return (
@@ -44,12 +44,15 @@ const Resource = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[Autoplay, Pagination]}
+            navigation={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper hidden"
           >
             {resourceInfo.map((info) => (
               <SwiperSlide key={info.id}>
-                <div className="card w-96 h-[280px] bg-white shadow-xl text-black p-6">
+                <div className="card w-96 h-[280px] bg-white shadow-xl text-black p-6 mb-12 border-primary border-4">
                   <figure>
                     <img className="w-16 " src={info.img} alt="icon" />
                   </figure>
