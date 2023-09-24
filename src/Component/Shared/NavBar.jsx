@@ -26,14 +26,14 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="max-w-screen-xl navbar fixed z-10 opacity-90 bg-black text-white p-4">
+      <div className="md:w-[1280px]  navbar fixed z-10 opacity-90 bg-black text-white p-6 mx-auto">
         <div className="navbar-start ">
           <Link to="/">
             <img className="w-12" src={logo} alt="logo" />
           </Link>
           <Link
             to="/"
-            className="font-bold lg:text-2xl text-xl 
+            className="font-bold lg:text-2xl text-xl ml-2
           "
           >
             Vantage Capital Fx
@@ -42,8 +42,8 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:block">
           <ul className="menu menu-horizontal gap-x-1 font-bold">{navItem}</ul>
         </div>
-        <div className="navbar-start lg:hidden block ">
-          <div className="dropdown dropdown-left absolute right-3 top-4 ">
+        <div className="navbar-start lg:hidden block  ">
+          <div className="dropdown dropdown-left absolute right-0 top-3">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <CgMenuGridO color="#1ba9ca" size="35px" />
             </label>

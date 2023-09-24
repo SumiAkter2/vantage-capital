@@ -41,7 +41,7 @@ const About = () => {
                 one of the best brokerage firms in the world.
               </p>
             </div>
-            <p className="md:hidden block px-4 mt-6">
+            <p className="md:hidden block px-6 mt-6">
               Discover the foundation of Vantage Capital fx, built on a
               deep-rooted commitment to integrity, transparency, and delivering
               superior results. Our team comprises industry veterans with years

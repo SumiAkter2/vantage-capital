@@ -66,10 +66,10 @@ const Resource = () => {
           </Swiper>
         </div>
 
-        <div className="grid md:hidden p-6">
+        <div className="grid md:hidden px-6">
           {resourceInfo.map((info) => (
             <div key={info.id}>
-              <div className="card w-96 h-[280px] bg-white shadow-xl text-black p-6 my-4">
+              <div className="card md:w-96 h-[280px] bg-white shadow-xl text-black p-6 my-4">
                 <figure>
                   <img className="w-16 " src={info.img} alt="icon" />
                 </figure>

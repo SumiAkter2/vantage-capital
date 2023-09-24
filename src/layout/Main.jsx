@@ -5,7 +5,7 @@ import NavBar from "../Component/Shared/NavBar/";
 
 const Main = () => {
   return (
-    <div>
+    <div className="max-w-screen-xl">
       <NavBar />
       <Outlet />
       <Footer />
