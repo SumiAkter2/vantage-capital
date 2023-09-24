@@ -10,7 +10,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const Resource = () => {
   return (
-    <div>
+    <div id="resource">
       <div className="bg-black   p-12 ">
         <div className="text-center my-6">
           <p>Be a part with us</p>

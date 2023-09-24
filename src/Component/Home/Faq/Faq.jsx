@@ -11,7 +11,7 @@ import { faqInfo } from "../../../Info/FaqInfo";
 
 const Faq = () => {
   return (
-    <section className="my-12 text-black" >
+    <section className="my-12 text-black" id='faq'>
       <h1 className="text-4xl font-bold text-center mb-12 px-6">
         Frequently Asked Questions
       </h1>

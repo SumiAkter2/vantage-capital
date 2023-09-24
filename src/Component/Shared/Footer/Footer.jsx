@@ -5,7 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png";
 const Footer = () => {
   return (
-    <div className="footer-bg ">
+    <div className="footer-bg " id="footer">
       <div className="bg-black opacity-70">
         <footer className="footer p-10   ">
           <div>

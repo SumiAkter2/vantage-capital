@@ -1,26 +1,26 @@
-import { Link } from "react-router-dom";
 import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
 // import { CgMenuGridO } from "react-icons/cg";
 const Navbar = () => {
   const navItem = (
     <>
       <li className="mr-2">
-        <Link to="/">Affiliate</Link>
+        {" "}
+        <a href="#affiliate">Affiliate</a>
       </li>
       <li className="mr-2">
-        <Link to="/">Services</Link>
+        <a href="#service">Services</a>
       </li>
       <li className="mr-2">
-        <Link to="/">Resources</Link>
+        <a href="#resource">Resources</a>
       </li>
       <li className="mr-2">
-        <Link to="/">Testimonials</Link>
+        <a href="#review">Testimonials</a>
       </li>
       <li className="mr-2">
-        <Link to="/">FAQ</Link>
+        <a href="#faq ">FAQ</a>
       </li>
       <li className="mr-2">
-        <Link to="/">Contact Us</Link>
+        <a href="#footer">Contact Us</a>
       </li>
     </>
   );
@@ -51,12 +51,12 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <Link to="/" className=" flex justify-center items-center">
+        <a href="# " className=" flex justify-center items-center">
           <img src={logo} alt="logo" className="md:w-12 w-8" />
           <p className="text-white pl-2 md:text-xl text-sm">
             Vintage Capital Fx
           </p>
-        </Link>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white">{navItem}</ul>

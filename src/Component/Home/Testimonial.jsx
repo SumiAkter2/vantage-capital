@@ -9,7 +9,7 @@ import { client } from "../../Info/TestomonialInfo";
 
 const Testimonial = () => {
   return (
-    <div>
+    <div id="review">
       <div className="lg:px-24 px-6 py-6">
         <h1 className="text-black text-3xl lg:text-5xl font-bold text-center mb-12">
           What Our Clients Say
