@@ -16,7 +16,7 @@ const Quote = () => {
                 could be doing it better.
               </p>
 
-              <form action="" className="px-8">
+              <form action="">
                 <div className="grid md:grid-cols-2  gap-2 mb-6">
                   <input
                     type="text"
