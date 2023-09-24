@@ -1,4 +1,5 @@
 
+// import { Route, Router } from 'react-router'
 import './App.css'
 
 function App() {
@@ -7,7 +8,10 @@ function App() {
   return (
     <>
     
-      <h1>Vite + React</h1>
+      {/* <Router>
+        <Route path='/' element={<Main/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+     </Router> */}
    
       
     </>

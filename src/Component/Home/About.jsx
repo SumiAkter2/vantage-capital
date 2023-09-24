@@ -24,7 +24,7 @@ const About = () => {
               <p className="text-sm">Our Little Story</p>
               <h1 className="md:text-4xl text-2xl font-bold">Something About Us</h1>
             </div>
-            <div className="md:flex hidden justify-center items-start gap-6 px-6 text-xl  ">
+            <div className="md:flex hidden justify-center items-start gap-6 px-6 mt-6">
               <p className="w-1/2 mb-6">
                 Discover the foundation of Vantage Capital fx, built on a
                 deep-rooted commitment to integrity, transparency, and
