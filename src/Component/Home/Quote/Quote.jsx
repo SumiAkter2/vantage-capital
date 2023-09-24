@@ -20,17 +20,17 @@ const Quote = () => {
                 <div className="grid md:grid-cols-2  gap-2 mb-6">
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Type Name"
                     className="input  input-primary w-full max-w-sm"
                   />
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Type Email"
                     className="input  input-primary w-full max-w-sm"
                   />
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Text here"
                     className="input  input-primary w-full max-w-sm"
                   />
                   <input

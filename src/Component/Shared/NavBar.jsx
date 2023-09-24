@@ -51,12 +51,11 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <Link
-          to="/"
-          className=" text-xl text-white flex justify-center items-center"
-        >
-          <img src={logo} alt="logo" className="w-12" />
-          <p className="text-white pl-2"> Vintage Capital Fx</p>
+        <Link to="/" className=" flex justify-center items-center">
+          <img src={logo} alt="logo" className="md:w-12 w-8" />
+          <p className="text-white pl-2 md:text-xl text-sm">
+            Vintage Capital Fx
+          </p>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
