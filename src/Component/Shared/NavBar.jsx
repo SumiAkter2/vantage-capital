@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
+import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
 // import { CgMenuGridO } from "react-icons/cg";
 const Navbar = () => {
   const navItem = (
@@ -25,9 +25,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="max-w-screen-xl navbar fixed z-10 opacity-70 bg-black text-white">
+    <div className="max-w-screen-xl navbar fixed z-10 opacity-90 bg-black  font-bold p-4">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown ">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,17 +46,21 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 text-white bg-black gap-y-4"
           >
             {navItem}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
-          Cozy Comfort Bites
+        <Link
+          to="/"
+          className=" text-xl text-white flex justify-center items-center"
+        >
+          <img src={logo} alt="logo" className="w-12" />
+          <p className="text-white"> Vintage Capital Fx</p>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navItem}</ul>
+        <ul className="menu menu-horizontal px-1 text-white">{navItem}</ul>
       </div>
     </div>
   );
