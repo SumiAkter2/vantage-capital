@@ -34,14 +34,14 @@ const Testimonial = () => {
       >
         {client.map((c) => (
           <SwiperSlide key={c.id}>
-            <div className="hero  text-black ">
-              <div className="hero-content flex-col lg:flex-row">
+            <div className="  text-black ">
+              <div className="md:flex justify-center items-center">
                 <img
                   src={c.img}
-                  className="max-w-sm rounded-lg border-4 p-6 lg:p-12 mx-auto lg:mx-auto bg-black border-[#1ba9ca]"
+                  className="w-56 md:w-96  rounded-lg border-4 p-6 lg:p-12 mx-auto lg:mx-auto bg-black border-[#1ba9ca]"
                   alt="man-img"
                 />
-                <div className=" text-start lg:w-1/2 px-6">
+                <div className="text-start lg:w-1/2 md:px-6 px-12 mt-6">
                   <h1 className="text-4xl font-bold text-primary">{c.name}</h1>
                   <p className="py-6 ">{c.des}</p>
 

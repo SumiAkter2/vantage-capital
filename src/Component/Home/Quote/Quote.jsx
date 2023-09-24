@@ -2,9 +2,9 @@ import img from "../../../assets/Home/quote/quote (2).png";
 const Quote = () => {
   return (
     <div>
-      <div className="hero min-h-screen ">
-        <div className="hero-content flex-col lg:flex-row ">
-          <img src={img} className="max-w-sm rounded-lg mb-12 px-6" />
+      <div className=" ">
+        <div className="md:flex justify-content-center items-start ">
+          <img src={img} className=" rounded-lg mb-12 px-6" />
           <div>
             <div className="md:w-1/2 mx-auto  text-black px-6 ">
               <h1 className="md:text-5xl text-4xl font-bold  text-start my-6">
