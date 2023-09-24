@@ -6,7 +6,7 @@ const Services = () => {
       <div className="text-center">
         <h1 className="text-4xl font-bold"> Services</h1>
         <p className="text-primary mt-4">
-          We provide the best services for out clients
+          We provide the best services for our clients
         </p>
       </div>
       <div className="grid md:grid-cols-2 md:gap-24 gap-6 mt-12 px-6">
