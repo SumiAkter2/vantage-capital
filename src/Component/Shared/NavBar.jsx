@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
-import { CgMenuGridO } from "react-icons/cg";
+// import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
+// import { CgMenuGridO } from "react-icons/cg";
 const Navbar = () => {
   const navItem = (
     <>
