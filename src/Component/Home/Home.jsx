@@ -3,6 +3,7 @@ import Affiliate from "./Affiliate/Affiliate";
 import Banner from "./Banner/Banner";
 import Faq from "./Faq/Faq";
 import OpenAccount from "./OpenAccount";
+import Resource from "./Resource";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
 
@@ -16,9 +17,11 @@ const Home = () => {
       <About />
       <Services />
       <Affiliate />
-      <Testimonial />
-      <Faq />
       <OpenAccount />
+      <Resource />
+      <Testimonial />
+
+      <Faq />
     </div>
   );
 };
