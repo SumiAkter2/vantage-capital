@@ -4,7 +4,7 @@ const OpenAccount = () => {
   return (
   
       <div className="  text-black my-12 px-6">
-        <div className=" md:flex justify-content-center  items-center">
+        <div className=" md:flex justify-center  items-center">
           <img src={img} className=" rounded-lg shadow-2xl px-6" />
           <div className="md:w-1/2 mt-12 md:pl-8 px-6 ">
             <h1 className="text-4xl font-bold pb-6 ">Open an Account</h1>

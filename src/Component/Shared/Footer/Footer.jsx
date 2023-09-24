@@ -6,19 +6,19 @@ import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png"
 const Footer = () => {
   return (
     <div className="footer-bg ">
-      <div className="bg-black opacity-60">
-        <footer className="footer p-10  text-white ">
-          <aside>
+      <div className="bg-black opacity-70">
+        <footer className="footer p-10   ">
+          <div>
             <div className="flex justify-center items-center">
               <img className="w-12 mr-2" src={BrandLogo} alt="brand-logo" />
-              <div>
+              <div className="text-white">
                 <p className="text-2xl font-bold"> Vantage Capital Fx</p>
                 <p className="font-semibold mt-1">
                   Unlock Your Financial Success
                 </p>
               </div>
             </div>
-          </aside>
+          </div>
           <nav>
             <header className=" text-secondary font-semibold text-xl">
               Social
@@ -51,11 +51,11 @@ const Footer = () => {
             </div>
           </nav>
         </footer>
-        <p className="text-center text-sm pb-2 text-secondary font-bold">
+        <div className="text-center text-sm pb-2 text-secondary font-bold">
           <p>
             Copyright &copy; {new Date().getFullYear()} - All right reserved
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );

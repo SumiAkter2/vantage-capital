@@ -3,7 +3,7 @@ const Quote = () => {
   return (
     <div>
       <div className=" ">
-        <div className="md:flex justify-content-center items-start ">
+        <div className="md:flex justify-center items-start ">
           <img src={img} className=" rounded-lg mb-12 px-6" />
           <div>
             <div className="md:w-1/2 mx-auto  text-black px-6 ">
@@ -35,7 +35,7 @@ const Quote = () => {
                   />
                   <input
                     type="Submit"
-                    value="Submit"
+                    placeholder="Submit"
                     className="btn  btn-primary w-full max-w-sm"
                   />
                 </div>
