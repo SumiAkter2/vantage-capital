@@ -56,7 +56,7 @@ const Navbar = () => {
           className=" text-xl text-white flex justify-center items-center"
         >
           <img src={logo} alt="logo" className="w-12" />
-          <p className="text-white"> Vintage Capital Fx</p>
+          <p className="text-white pl-2"> Vintage Capital Fx</p>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
