@@ -9,22 +9,22 @@ const About = () => {
           backgroundImage: `url(${bg})`,
         }}
       >
-        <div className="hero-overlay bg-black bg-opacity-80 "></div>
+        <div className="hero-overlay  bg-black bg-opacity-80 "></div>
         <div className="text-secondary ">
           <div className="flex justify-center items-center">
             <img
-              className="md:w-[600px] absolute z-9  top-[-100px] mb-12"
+              className="md:w-[600px] w-[300px] absolute z-9  top-[-100px] mb-12"
               src={AboutImg}
               alt="About-Img"
             />
           </div>
 
           <div className="md:absolute left-0">
-            <div className="text-center my-6">
+            <div className="text-center mt-12">
               <p className="text-sm">Our Little Story</p>
-              <h1 className="md:text-4xl font-bold">Something About Us</h1>
+              <h1 className="md:text-4xl text-2xl font-bold">Something About Us</h1>
             </div>
-            <div className="md:flex justify-center items-start gap-6 px-6 text-xl  ">
+            <div className="md:flex hidden justify-center items-start gap-6 px-6 text-xl  ">
               <p className="w-1/2 mb-6">
                 Discover the foundation of Vantage Capital fx, built on a
                 deep-rooted commitment to integrity, transparency, and
@@ -41,6 +41,22 @@ const About = () => {
                 one of the best brokerage firms in the world.
               </p>
             </div>
+            <p className="md:hidden block px-4 mt-6">
+              Discover the foundation of Vantage Capital fx, built on a
+              deep-rooted commitment to integrity, transparency, and delivering
+              superior results. Our team comprises industry veterans with years
+              of experience in the forex trading markets.
+              <br />
+              <span >
+                We stay ahead of the curve by continuously honing our skills and
+                staying abreast of market trends. At Vantage Capital fx, we
+                stand out through our unwavering dedication to exceptional
+                service, proactive risk management, and our passion for helping
+                clients achieve their financial aspirations. We have partnered
+                with the best brokerage firms in the world, which is considered
+                one of the best brokerage firms in the world.
+              </span>
+            </p>
           </div>
         </div>
       </div>

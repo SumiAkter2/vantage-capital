@@ -1,4 +1,4 @@
-import "./Quote.css";
+
 import img from "../../../assets/Home/quote/quote (2).png";
 const Quote = () => {
   return (

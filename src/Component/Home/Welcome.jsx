@@ -2,10 +2,10 @@ import welcomeImg from "../../assets/Home/Banner/mark.gif";
 const Welcome = () => {
   return (
     <div>
-      <div className="hero min-h-screen text-black mb-12">
+      <div className="hero min-h-screen text-black mb-24">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={welcomeImg} className="max-w-lg rounded-lg " />
-          <div className="w-1/2">
+          <img src={welcomeImg} className="md:max-w-lg rounded-lg " />
+          <div className="w-1/2 ">
             <p className="text-primary my-2 font-semibold ">
               You are most welcome
             </p>

@@ -3,7 +3,7 @@ import PrimaryButton from "../PrimaryButton/PrimaryButton";
 const OpenAccount = () => {
   return (
     <div>
-      <div className="hero min-h-screen text-black ">
+      <div className="hero min-h-screen text-black mb-12">
         <div className="hero-content flex-col lg:flex-row">
           <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="md:w-1/2 px-8">
