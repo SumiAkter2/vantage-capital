@@ -1,10 +1,14 @@
-import welcomeImg from "../../assets/Home/Banner/mark.gif";
+import welcomeImg from "../../assets/Home/Banner/welcome.jpg";
 const Welcome = () => {
   return (
     <div>
       <div className="hero min-h-screen text-black mb-24">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={welcomeImg} className="md:max-w-lg rounded-lg px-6" />
+          <img
+            src={welcomeImg}
+            className="md:max-w-lg rounded-lg px-6"
+            alt="stock market image"
+          />
           <div className="md:w-1/2 px-6">
             <p className="text-primary my-2 font-semibold ">
               You are most welcome
