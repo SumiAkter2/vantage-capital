@@ -25,36 +25,38 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
-      <div className="md:w-[1280px]  navbar fixed z-10 opacity-90 bg-black text-white p-6 mx-auto">
-        <div className="navbar-start ">
-          <Link to="/">
-            <img className="w-12" src={logo} alt="logo" />
-          </Link>
-          <Link
-            to="/"
-            className="font-bold lg:text-2xl text-xl ml-2
-          "
-          >
-            Vantage Capital Fx
-          </Link>
-        </div>
-        <div className="navbar-center hidden lg:block">
-          <ul className="menu menu-horizontal gap-x-1 font-bold">{navItem}</ul>
-        </div>
-        <div className="navbar-start lg:hidden block  ">
-          <div className="dropdown dropdown-left absolute right-0 top-3">
-            <label tabIndex={0} className="btn btn-ghost btn-circle">
-              <CgMenuGridO color="#1ba9ca" size="35px" />
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu  menu-compact dropdown-content  mt-3 p-6 shadow text-secondary rounded-box w-48 gap-y-4 backdrop-blur-sm bg-black font-bold"
+    <div className="max-w-screen-xl navbar fixed z-10 opacity-70 bg-black text-white">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              {navItem}
-            </ul>
-          </div>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            {navItem}
+          </ul>
         </div>
+        <Link to="/" className="btn btn-ghost normal-case text-xl">
+          Cozy Comfort Bites
+        </Link>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">{navItem}</ul>
       </div>
     </div>
   );

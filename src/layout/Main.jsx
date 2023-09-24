@@ -1,11 +1,10 @@
-import { Outlet } from "react-router";
-
+import { Outlet } from "react-router-dom";
 import Footer from "../Component/Shared/Footer/Footer";
 import NavBar from "../Component/Shared/NavBar/";
 
 const Main = () => {
   return (
-    <div className="max-w-screen-xl">
+    <div>
       <NavBar />
       <Outlet />
       <Footer />
