@@ -21,7 +21,7 @@ const About = () => {
 
           <div className="md:absolute left-0">
             <div className="text-center mt-12">
-              <p className="text-sm">Our Little Story</p>
+              <p className="text-sm text-primary font-semibold">Our Little Story</p>
               <h1 className="md:text-4xl text-2xl font-bold">Something About Us</h1>
             </div>
             <div className="md:flex hidden justify-center items-start gap-6 px-6 mt-6">

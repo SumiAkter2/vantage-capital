@@ -9,9 +9,9 @@ const Banner = () => {
         <div className="hero-content  text-neutral-content">
           <div className="hero min-h-screen ">
             <div className=" text-center">
-              <div className="max-w-md">
-                <h1 className="md:text-5xl text-4xl font-bold my-4">
-                  Unlock Your Financial Successe
+              <div className="max-w-md text-secondary">
+                <h1 className="md:text-5xl text-4xl font-bold my-4 ">
+                  Unlock Your Financial Success
                 </h1>
                 <p className="py-6 mb-6">
                   Choose Vantage CapitalFX for Professional Forex Account
