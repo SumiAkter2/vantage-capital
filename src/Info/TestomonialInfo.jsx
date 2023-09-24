@@ -3,7 +3,7 @@ export const client = [
     id: 1,
     name: "Tom Andy  ",
     img: "https://i.ibb.co/DwHbJFk/man44.jpg",
-    des: "I have been using Vantage Capital FX for over a year now and I couldn't be happier with the results.  The team at Vantage Vapital fx is knowledgeable and dedicated to maximizing my investment potential.  I highly recommend Vantage Capital FX to anyone looking to invest in the forex market.",
+    des: "I have been using Vantage Capital FX for over a year now and I couldn't be happier with the results.  The team at Vantage Capital FX is knowledgeable and dedicated to maximizing my investment potential.  I highly recommend Vantage Capital FX to anyone looking to invest in the forex market.",
     ratting: 5,
   },
   {

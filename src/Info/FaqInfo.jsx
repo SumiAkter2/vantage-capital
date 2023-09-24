@@ -12,16 +12,16 @@ export const faqInfo = [
   {
     id: 3,
     qs: "What is the difference between a MAM account and a PAMM account?",
-    ans: "A MAM (Multi-Account Manager) account is a type of forex trading account that allows money managers to manage multiple accounts from a single account without the need for multiple logins. A PAMM (Percentage Allocation Management Module) account is a type of forex trading account that allows investors to allocate a portion of their funds to a money manager who trades on their behalf. The money manager's trading activity is then distributed among the investors based on their percentage of ownership in the account",
+    ans: "A MAM (Multi-Account Manager) account is a type of forex trading account that allows money managers to manage multiple accounts from a single account without the need for multiple logins. A PAMM (Percentage Allocation Management Module) account is a type of forex trading account that allows investors to allocate a portion of their funds to a money manager who trades on their behalf. The money manager's trading activity is then distributed among the investors based on their percentage of ownership in the account.",
   },
   {
     id: 4,
     qs: "What is the minimum investment required to open an account with Vantage Capital FX?",
-    ans: "The minimum investment required to open an account with Vantage Capital FX is not specified on their website. However, according to our Partner , Tradeview requires a minimum deposit of $100",
+    ans: "The minimum investment required to open an account with Vantage Capital FX is not specified on their website. However, according to our Partner  requires a minimum deposit of $100.",
   },
   {
     id: 5,
     qs: "How does Vantage Capital FX ensure the security of my investments?",
-    ans: "Vantage Capital FX employs a meticulous risk management approach, integrating industry best practices to safeguard your investments and minimize exposure to potential risks. Additionally, Vantage Capital FX has a partnership with Tradeview, which is considered one of the best brokerage firms in the world",
+    ans: "Vantage Capital FX employs a meticulous risk management approach, integrating industry best practices to safeguard your investments and minimize exposure to potential risks. Additionally, Vantage Capital FX has a partnership with the best brokerage firms in the world",
   },
 ];
