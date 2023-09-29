@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { IoLogoWhatsapp } from "react-icons/io";
+
 import { BsTelegram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png";
@@ -24,14 +24,14 @@ const Footer = () => {
               Social
             </header>
             <div className="grid grid-flow-col gap-4 ">
-              <a
+              {/* <a
                 className="hover:text-primary"
                 href="https://chat.whatsapp.com/BZRVsWEIrSO2O4kCVSHO9B "
                 target="_blank"
                 rel="noreferrer"
               >
                 <IoLogoWhatsapp size="28px" />
-              </a>
+              </a> */}
               <a
                 className="hover:text-primary"
                 target="_blank"

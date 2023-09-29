@@ -1,10 +1,11 @@
 import PrimaryButton from "../../PrimaryButton/PrimaryButton";
+import { IoLogoWhatsapp } from "react-icons/io";
 import "./Banner.css";
 
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen banner-bg">
+      <div className="hero h-[400px] banner-bg">
         <div className="hero-overlay bg-black opacity-70"></div>
         <div className="hero-content  text-neutral-content">
           <div className="hero min-h-screen ">
@@ -23,6 +24,17 @@ const Banner = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="fixed right-10 bottom-20 z-20">
+          <a
+            className="hover:text-primary p-2"
+            href="https://chat.whatsapp.com/BZRVsWEIrSO2O4kCVSHO9B "
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IoLogoWhatsapp color="#1CAACA" size="55px" />
+          </a>
         </div>
       </div>
     </div>

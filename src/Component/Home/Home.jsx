@@ -1,6 +1,7 @@
 import About from "./About";
 import Affiliate from "./Affiliate/Affiliate";
-import Banner from "./Banner/Banner";
+// import Banner from "./Banner/Banner";
+import SliderBanner from "./Banner/SliderBanner";
 import Faq from "./Faq/Faq";
 import OpenAccount from "./OpenAccount";
 import Quote from "./Quote/Quote";
@@ -13,7 +14,7 @@ import Welcome from "./Welcome";
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <SliderBanner />
       <Welcome />
       <About />
       <Services />
