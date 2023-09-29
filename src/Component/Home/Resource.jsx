@@ -1,11 +1,7 @@
 import { resourceInfo } from "../../Info/ResourceInfo";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import { Navigation, Pagination } from "swiper/modules";
 
 const Resource = () => {
@@ -37,10 +33,7 @@ const Resource = () => {
             slidesPerView={3}
             spaceBetween={30}
             centeredSlides={true}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
+            
             style={{
               "--swiper-navigation-color": "#1ba9ca",
               "--swiper-pagination-color": "#1ba9ca",

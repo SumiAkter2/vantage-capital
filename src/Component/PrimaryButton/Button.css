@@ -14,11 +14,11 @@
 .shadow__btn {
     background: #000;
     opacity: 20;
-    box-shadow: 0 0 25px #1baacafc;
+    box-shadow: 0 0 25px #1baacac3;
 }
 
 .shadow__btn:hover {
    top: 10px;
    background: #1caacae8;
-   color: #fff;
+   color: #ffffffc8;
 }

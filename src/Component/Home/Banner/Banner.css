@@ -1,18 +1,12 @@
 .banner-bg-1{
-    background: url('../../../assets/Home/Banner/bannerImg3.jpg');
+    background: url('../../../assets/Home/Banner/banner4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
   
 }
-.banner-bg{
-    background: url('../../../assets/Home/Banner/bannerImg3.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: overlay;
-}
+
 .banner-bg-3{
         background: url('../../../assets/Home/Banner/affiliate2.jpg');
         background-position: center;
