@@ -98,7 +98,7 @@ const SliderBanner = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="fixed md:right-10 right-2 lg:bottom-20 bottom-5 z-20">
+      <div className="fixed md:right-10 right-2  bottom-5 z-20">
         <a
           className="hover:text-primary p-2"
           href="https://chat.whatsapp.com/BZRVsWEIrSO2O4kCVSHO9B "
