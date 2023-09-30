@@ -50,10 +50,14 @@ const Navbar = () => {
             className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#202e3d]  shadow-white shadow-lg drop-shadow-2xl"
           >
             <div className="card-body">
-              <span className="font-bold text-lg">8 Items</span>
+              <span className="font-bold text-lg">The Liquid Fund</span>
               <span className="text-info">Subtotal: $999</span>
               <div className="card-actions">
-                <button className="btn btn-primary btn-block">View cart</button>
+                <Link to="fund">
+                  <button className="btn btn-primary btn-block">
+                    Join Fund
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
