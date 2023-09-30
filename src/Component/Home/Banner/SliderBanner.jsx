@@ -17,7 +17,7 @@ const SliderBanner = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 5500,
           disableOnInteraction: false,
         }}
         modules={[Pagination, Autoplay]}
@@ -32,11 +32,11 @@ const SliderBanner = () => {
       >
         <SwiperSlide>
           <div className="hero min-h-screen banner-bg-3  ">
-            <div className="hero-overlay bg-black opacity-30"></div>
+            <div className="hero-overlay bg-black md:opacity-30 opacity-50"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero min-h-screen ">
                 <div className=" md:absolute left-10 md:text-start text-center">
-                  <div className="max-w-md text-secondary">
+                  <div className="text-secondary">
                     <h1 className="md:text-5xl text-4xl font-bold my-4 leading-loose">
                       Unlock Financial Success Today!
                     </h1>
@@ -44,12 +44,12 @@ const SliderBanner = () => {
                       Follow the Best, Earn the Best
                     </p>
                     <div className="text-sm mb-12 ">
-                      <p className="flex  justify-start items-center md:py-2 gap-x-2">
-                        <ImArrowRight size="18px" /> No Guesswork: Follow Top
+                      <p className="flex  justify-start items-start md:py-2 ">
+                         <ImArrowRight size="18px" className="mr-2"/> No Guesswork: Follow Top
                         Strategies in Real-Time!
                       </p>
-                      <p className="flex  justify-start items-center md:py-2 gap-x-2">
-                        <ImArrowRight size="18px" /> Flexible Withdrawals: 100%
+                      <p className="flex  justify-start items-start md:py-2 ">
+                         <ImArrowRight size="18px" className="mr-2"/> Flexible Withdrawals: 100%
                         Control at Your Fingertips
                       </p>
                     </div>
@@ -67,31 +67,29 @@ const SliderBanner = () => {
             <div className="hero-overlay bg-black opacity-50"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero min-h-screen ">
-                <div className=" md:absolute left-20 md:text-start text-center">
-                  <div className="max-w-md text-secondary">
-                    <h1 className="md:text-5xl text-4xl font-bold my-4 ">
-                      Partner with Success
-                    </h1>
-                    <p className="py-4 text-2xl font-semibold">
-                      Earn Big as an Affiliate Agent
+                <div className=" md:absolute left-20 md:text-start text-center text-secondary">
+                  <h1 className="md:text-5xl text-4xl font-bold my-4 ">
+                    Partner with Success
+                  </h1>
+                  <p className="py-4 text-2xl font-semibold">
+                    Earn Big as an Affiliate Agent
+                  </p>
+                  <div className="text-sm mb-12 ">
+                    <p className="flex justify-start items-start md:py-2 ">
+                       <ImArrowRight size="18px" className="mr-2"/> Join Us as an Affiliate
+                      Partner and Start Earning!
                     </p>
-                    <div className="text-sm mb-12 ">
-                      <p className="flex justify-start items-center md:py-2 gap-x-2">
-                        <ImArrowRight size="18px" /> Join Us as an Affiliate
-                        Partner and Start Earning!
-                      </p>
-                      <p className="flex  justify-start items-center md:py-2 gap-x-2">
-                        <ImArrowRight size="18px" /> Get Paid for Every
-                        Client&apos;s Daily Trading Activities
-                      </p>
-                      <p className="flex  justify-start items-center md:py-2 gap-x-2">
-                        <ImArrowRight size="18px" /> Build a Passive Income
-                        Stream with Vantage Capital FX
-                      </p>
-                    </div>
-
-                    <PrimaryButton title={"Open An Account"}></PrimaryButton>
+                    <p className="flex  justify-start items-start md:py-2 ">
+                      <ImArrowRight size="18px" className="mr-2"/> Get Paid for Every
+                      Client&apos;s Daily Trading Activities
+                    </p>
+                    <p className="flex  justify-start items-start md:py-2 ">
+                       <ImArrowRight size="18px" className="mr-2"/> Build a Passive Income Stream
+                      with Vantage Capital FX
+                    </p>
                   </div>
+
+                  <PrimaryButton title={"Open An Account"}></PrimaryButton>
                 </div>
               </div>
             </div>
