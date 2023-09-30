@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/Logo/ideogram2__74_-removebg-preview.png";
 import { MdMenu } from "react-icons/md";
 const Navbar = () => {
@@ -34,9 +35,30 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-white">{navItem}</ul>
+        <ul className="menu menu-horizontal px-1 text-white ">{navItem}</ul>
       </div>
       <div className="navbar-end">
+        {/* Liquid fund */}
+        <div className="dropdown dropdown-end text-primary font-bold">
+          <label tabIndex={0}>
+            <button className="btn btn-ghost border-2 border-primary ">
+              Liquidity Fund
+            </button>
+          </label>
+          <div
+            tabIndex={0}
+            className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#202e3d]  shadow-white shadow-lg drop-shadow-2xl"
+          >
+            <div className="card-body">
+              <span className="font-bold text-lg">8 Items</span>
+              <span className="text-info">Subtotal: $999</span>
+              <div className="card-actions">
+                <button className="btn btn-primary btn-block">View cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* mobile nav */}
         <div className="dropdown dropdown-end ">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <MdMenu color="#1ba9ca" size="25px" />
