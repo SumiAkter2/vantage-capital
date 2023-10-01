@@ -3,6 +3,7 @@ import { BsTelegram } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
 import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png";
+
 const Footer = () => {
   return (
     <div className="footer-bg " id="footer">
@@ -24,14 +25,6 @@ const Footer = () => {
               Social
             </header>
             <div className="grid grid-flow-col gap-4 ">
-              {/* <a
-                className="hover:text-primary"
-                href="https://chat.whatsapp.com/BZRVsWEIrSO2O4kCVSHO9B "
-                target="_blank"
-                rel="noreferrer"
-              >
-                <IoLogoWhatsapp size="28px" />
-              </a> */}
               <a
                 className="hover:text-primary"
                 target="_blank"
@@ -68,5 +61,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;
