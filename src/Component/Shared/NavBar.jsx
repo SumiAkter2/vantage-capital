@@ -41,8 +41,8 @@ const Navbar = () => {
         {/* Liquid fund */}
         <div className="dropdown dropdown-end text-primary font-bold">
           <label tabIndex={0}>
-            <button className="btn btn-ghost border-2 border-primary ">
-              Liquidity Fund
+            <button className="btn btn-ghost btn-xs md:btn-md border-2 border-primary  md:text-sm text-xs mr-2 ">
+              Fund
             </button>
           </label>
           <div
@@ -50,7 +50,7 @@ const Navbar = () => {
             className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#202e3d]  shadow-white shadow-lg drop-shadow-2xl"
           >
             <div className="card-body">
-              <span className="font-bold text-lg ">The Liquid Fund</span>
+              <span className="font-bold text-lg  ">The Liquid Fund</span>
               <span className=" text-secondary">
                 Cash Flow <br /> Less Risk <br />
                 Profit Rate : %4 - %7 (Monthly)
