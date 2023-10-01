@@ -42,7 +42,7 @@ const Fund = () => {
             </label>
             <input
               type="text"
-              placeholder="Amount"
+              placeholder="Amount($) eg: 5000"
               className="input input-bordered"
             />
           </div>
