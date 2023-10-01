@@ -34,7 +34,7 @@ const Contact = () => {
               />
               <input
                 type="Submit"
-                value="Contact Us"
+                defaultValue="Contact Us"
                 className="btn  btn-primary w-full max-w-sm text-secondary"
               />
             </div>

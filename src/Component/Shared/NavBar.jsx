@@ -25,7 +25,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="max-w-screen-xl navbar fixed z-10 opacity-90 bg-black  font-bold p-4">
+    <div className="max-w-screen navbar fixed z-10 opacity-90 bg-black  font-bold p-4">
       <div className="navbar-start">
         <a href="/ " className=" flex justify-center items-center">
           <img src={logo} alt="logo" className="md:w-12 w-8" />

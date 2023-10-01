@@ -1,13 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import PrimaryButton from "../../PrimaryButton/PrimaryButton";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { ImArrowRight } from "react-icons/im";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Banner.css";
 import { Autoplay, Pagination } from "swiper/modules";
 import BannerInfo from "./BannerInfo";
-
 
 import { WhatsAppWidget } from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
@@ -41,20 +39,18 @@ const SliderBanner = () => {
               <div className="hero min-h-screen ">
                 <div className=" md:absolute left-10 md:text-start text-center">
                   <div className="text-secondary">
-                    <h1 className="md:text-5xl text-4xl font-bold my-4 leading-loose">
+                    <h1 className="md:text-5xl text-4xl font-bold my-4  leading-normal">
                       Unlock Financial Success Today!
                     </h1>
                     <p className="py-4 text-2xl font-semibold">
                       Follow the Best, Earn the Best
                     </p>
                     <div className="text-sm mb-12 ">
-                      <p className="flex  justify-start items-start md:py-2 ">
-                        <ImArrowRight size="18px" className="mr-2" /> No
-                        Guesswork: Follow Top Strategies in Real-Time!
+                      <p className=" md:py-2 ">
+                        No Guesswork: Follow Top Strategies in Real-Time!
                       </p>
-                      <p className="flex  justify-start items-start md:py-2 ">
-                        <ImArrowRight size="18px" className="mr-2" /> Flexible
-                        Withdrawals: 100% Control at Your Fingertips
+                      <p className="md:py-2 ">
+                        Flexible Withdrawals: 100% Control at Your Fingertips
                       </p>
                     </div>
 
@@ -79,17 +75,14 @@ const SliderBanner = () => {
                     Earn Big as an Affiliate Agent
                   </p>
                   <div className="text-sm mb-12 ">
-                    <p className="flex justify-start items-start md:py-2 ">
-                      <ImArrowRight size="18px" className="mr-2" /> Join Us as
-                      an Affiliate Partner and Start Earning!
+                    <p className=" md:py-2 ">
+                      Join Us as an Affiliate Partner and Start Earning!
                     </p>
-                    <p className="flex  justify-start items-start md:py-2 ">
-                      <ImArrowRight size="18px" className="mr-2" /> Get Paid for
-                      Every Client&apos;s Daily Trading Activities
+                    <p className="md:py-2 ">
+                      Get Paid for Every Client&apos;s Daily Trading Activities
                     </p>
-                    <p className="flex  justify-start items-start md:py-2 ">
-                      <ImArrowRight size="18px" className="mr-2" /> Build a
-                      Passive Income Stream with Vantage Capital FX
+                    <p className=" md:py-2 ">
+                      Build a Passive Income Stream with Vantage Capital FX
                     </p>
                   </div>
 
@@ -119,10 +112,8 @@ const SliderBanner = () => {
       </div>
       <div className="fixed md:right-10 right-2  bottom-5 z-30">
         <WhatsAppWidget phoneNumber="27764396155">
-          
           <IoLogoWhatsapp color="#1CAACA" size="55px" />
         </WhatsAppWidget>
-       
       </div>
     </div>
   );

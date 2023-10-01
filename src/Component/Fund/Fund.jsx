@@ -77,7 +77,7 @@ const Fund = () => {
         <div className="hero-overlay min-h-screen bg-black bg-opacity-80 md:w-4/5 md:absolute md:left-0"></div>
         <div className="hero-content text-white ">
           <div className="md:w-4/5 md:absolute md:left-8 md:px-12 ">
-            <h1 className="my-5 md:text-3xl text-xl font-bold uppercase flex items-center">
+            <h1 className="my-5 md:text-3xl text-xl font-bold uppercase flex md:items-center items-start">
               <BiBullseye size="25px" className="mr-2" /> What is The Liquidity
               Fund ?
             </h1>
