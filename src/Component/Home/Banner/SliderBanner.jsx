@@ -45,12 +45,12 @@ const SliderBanner = () => {
                     </p>
                     <div className="text-sm mb-12 ">
                       <p className="flex  justify-start items-start md:py-2 ">
-                         <ImArrowRight size="18px" className="mr-2"/> No Guesswork: Follow Top
-                        Strategies in Real-Time!
+                        <ImArrowRight size="18px" className="mr-2" /> No
+                        Guesswork: Follow Top Strategies in Real-Time!
                       </p>
                       <p className="flex  justify-start items-start md:py-2 ">
-                         <ImArrowRight size="18px" className="mr-2"/> Flexible Withdrawals: 100%
-                        Control at Your Fingertips
+                        <ImArrowRight size="18px" className="mr-2" /> Flexible
+                        Withdrawals: 100% Control at Your Fingertips
                       </p>
                     </div>
 
@@ -76,16 +76,16 @@ const SliderBanner = () => {
                   </p>
                   <div className="text-sm mb-12 ">
                     <p className="flex justify-start items-start md:py-2 ">
-                       <ImArrowRight size="18px" className="mr-2"/> Join Us as an Affiliate
-                      Partner and Start Earning!
+                      <ImArrowRight size="18px" className="mr-2" /> Join Us as
+                      an Affiliate Partner and Start Earning!
                     </p>
                     <p className="flex  justify-start items-start md:py-2 ">
-                      <ImArrowRight size="18px" className="mr-2"/> Get Paid for Every
-                      Client&apos;s Daily Trading Activities
+                      <ImArrowRight size="18px" className="mr-2" /> Get Paid for
+                      Every Client&apos;s Daily Trading Activities
                     </p>
                     <p className="flex  justify-start items-start md:py-2 ">
-                       <ImArrowRight size="18px" className="mr-2"/> Build a Passive Income Stream
-                      with Vantage Capital FX
+                      <ImArrowRight size="18px" className="mr-2" /> Build a
+                      Passive Income Stream with Vantage Capital FX
                     </p>
                   </div>
 
@@ -120,6 +120,7 @@ const SliderBanner = () => {
           target="_blank"
           rel="noreferrer"
         >
+          {/* https://wa.me/27764396155/?text=Hello%21%20I%20have%20a%20question%3A%20%5BYour%20Question%20Here%5D%0A%0AJoin%20Our%20Lucrative%20Affiliate%20Program%3A%20Partner%20with%20the%20Experts%20in%20Money%20Management%0A%0AAre%20you%20a%20motivated%20individual%20looking%20for%20a%20rewarding%20opportunity%20in%20the%20financial%20industry%3F%20If%20yes%2C%20please%20provide%20us%20with%20the%20following%20information%3A%0A%0AYour%20Full%20Name%3A%0AContact%20Email%3A%0APhone%20Number%3A%0AHow%20did%20you%20hear%20about%20our%20affiliate%20program%3F%0AAny%20additional%20questions%20or%20comments%3F */}
           <IoLogoWhatsapp color="#1CAACA" size="55px" />
         </a>
       </div>

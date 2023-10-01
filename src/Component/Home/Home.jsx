@@ -1,9 +1,9 @@
 import About from "./About";
 import Affiliate from "./Affiliate/Affiliate";
 import SliderBanner from "./Banner/SliderBanner";
+import Contact from "./Contact";
 import Faq from "./Faq/Faq";
 import OpenAccount from "./OpenAccount";
-import Quote from "./Quote/Quote";
 import Resource from "./Resource";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
@@ -22,7 +22,7 @@ const Home = () => {
       <Resource />
       <Testimonial />
       <Faq />
-      <Quote />
+      <Contact />
     </div>
   );
 };
