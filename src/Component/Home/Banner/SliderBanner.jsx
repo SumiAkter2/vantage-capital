@@ -110,8 +110,14 @@ const SliderBanner = () => {
           bgClass="bg-black border-white border-4 hover:border-primary"
         ></BannerInfo>
       </div>
-      <div className="fixed md:right-10 right-2  bottom-5 z-30">
-        <WhatsAppWidget phoneNumber="27764396155">
+      <div className="fixed md:right-10 right-2  bottom-5 z-30 text-black">
+        <WhatsAppWidget
+          phoneNumber="27764396155"
+          message="🌟 Welcome to our WhatsApp Business channel! 🌟
+We are delighted to assist you in achieving the best results and ensuring your trust in our services. Your satisfaction is our priority.
+ **For any other inquiries or assistance, please enter your name and your inquiry below, and we'll be at your service.**"
+          companyName="Vantage Capital FX"
+        >
           <IoLogoWhatsapp color="#1CAACA" size="55px" />
         </WhatsAppWidget>
       </div>
