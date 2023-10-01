@@ -1,6 +1,6 @@
 import "./Footer.css";
-
 import { BsTelegram } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
 import BrandLogo from "../../../assets/Logo/ideogram2__74_-removebg-preview.png";
 const Footer = () => {
@@ -39,6 +39,14 @@ const Footer = () => {
                 href="https://t.me/+WamrIarbGCdhNDhk"
               >
                 <BsTelegram size="28px" />
+              </a>
+              <a
+                className="hover:text-primary bg-gray"
+                href="mailto:info@vantagecapitalfx.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <GrMail size="28px" />
               </a>
               <a
                 className="hover:text-primary"
