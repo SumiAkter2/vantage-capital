@@ -1,12 +1,12 @@
 import { Link, useRouteError } from "react-router-dom";
-import Img from "./assets/Home/NotFound/404.gif";
+import Img from "./assets/Home/NotFound/404.png";
 const ErrorPage = () => {
   const error = useRouteError();
   console.error(error);
   return (
     <div id="error-page">
       <div className="flex justify-center items-center my-6">
-        <img src={Img} alt="404-gif" />
+        <img src={Img} alt="404-image" />
       </div>
       <div className="flex justify-center items-center my-4">
         <Link to="/">
