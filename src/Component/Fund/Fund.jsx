@@ -18,7 +18,7 @@ const Fund = () => {
           <p className="bg-slate-600 p-6 rounded-md ">
             <span className="font-semibold ">
               Min : 5.000 $ / Max : 500.000 $ <br /> Lock in Period : 90 Days
-              <br /> Profit Rate : %4 - %7 (Monthly)
+              <br /> Profit Rate : 7% - 10% (Monthly)
             </span>
           </p>
           <p className=" text-sm py-4">

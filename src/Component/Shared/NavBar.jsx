@@ -53,7 +53,7 @@ const Navbar = () => {
               <span className="font-bold text-lg  ">The Liquidity Fund</span>
               <span className=" text-secondary">
                 Cash Flow <br /> Less Risk <br />
-                Profit Rate : %4 - %7 (Monthly)
+                Profit Rate : 7% - 10% (Monthly)
               </span>
               <div className="card-actions">
                 <Link to="fund">
