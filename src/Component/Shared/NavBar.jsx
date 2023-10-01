@@ -50,7 +50,7 @@ const Navbar = () => {
             className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#202e3d] opacity-70 shadow-white shadow-lg drop-shadow-2xl"
           >
             <div className="card-body">
-              <span className="font-bold text-lg  ">The Liquid Fund</span>
+              <span className="font-bold text-lg  ">The Liquidity Fund</span>
               <span className=" text-secondary">
                 Cash Flow <br /> Less Risk <br />
                 Profit Rate : %4 - %7 (Monthly)
