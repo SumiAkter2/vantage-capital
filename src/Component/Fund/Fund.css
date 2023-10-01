@@ -1,11 +1,10 @@
 .info-container {
-    background: url('../../assets/Home/Banner/about.jpeg');
+    background: url('../../assets/Home/Faq/business-finance.jpg.optimal.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
-    /* height: 400px; */
-    /* width: 700px; */
+ 
+   
 
 
 }
