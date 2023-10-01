@@ -1,4 +1,3 @@
-// import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { BiBullseye } from "react-icons/bi";
 import "./Fund.css";
 const Fund = () => {
@@ -23,8 +22,8 @@ const Fund = () => {
             </span>
           </p>
           <p className="text-xl py-4">
-            If you're interested in our Liquidity Fund, please provide us with
-            some initial information:
+            If you&apos;re interested in our Liquidity Fund, please provide us
+            with some initial information:
           </p>
           <div className="form-control ">
             <label className="label">
