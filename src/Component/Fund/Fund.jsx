@@ -4,7 +4,7 @@ const Fund = () => {
   return (
     <div>
       <div className="h-56 bg-[#202e3d]">
-        <h1 className="text-5xl text-center pt-32 font-bold pb-6">
+        <h1 className="md:text-5xl text-lg text-center pt-32 font-bold mb-6 text-primary">
           Liquidity Fund Investors
         </h1>
       </div>
@@ -21,7 +21,7 @@ const Fund = () => {
               <br /> Profit Rate : %4 - %7 (Monthly)
             </span>
           </p>
-          <p className="text-xl py-4">
+          <p className=" text-sm py-4">
             If you&apos;re interested in our Liquidity Fund, please provide us
             with some initial information:
           </p>
@@ -73,11 +73,11 @@ const Fund = () => {
         </div>
       </div>
 
-      <div className="hero min-h-screen my-6 info-container relative">
-        <div className="hero-overlay bg-black bg-opacity-80 w-4/5 absolute left-0"></div>
-        <div className="hero-content  text-white ">
-          <div className="w-4/5 absolute left-8 px-12 ">
-            <h1 className="my-5 text-3xl font-bold uppercase flex items-center">
+      <div className="hero min-h-screen my-12 info-container relative">
+        <div className="hero-overlay min-h-screen bg-black bg-opacity-80 md:w-4/5 md:absolute md:left-0"></div>
+        <div className="hero-content text-white ">
+          <div className="md:w-4/5 md:absolute md:left-8 md:px-12 ">
+            <h1 className="my-5 md:text-3xl text-xl font-bold uppercase flex items-center">
               <BiBullseye size="25px" className="mr-2" /> What is The Liquidity
               Fund ?
             </h1>
@@ -96,21 +96,21 @@ const Fund = () => {
               Discover our liquidity Fund, a unique investment opportunity
               designed for low-risk, high-return seekers.
             </p>
-            <h1 className="my-4 text-3xl font-bold uppercase flex items-center">
+            <h1 className="my-4 md:text-3xl text-xl font-bold uppercase flex items-center">
               <BiBullseye size="25px" className="mr-2" /> How It Works ?
             </h1>
             <p className="mb-5">
               Zero Risk Investment: Your capital remains secure, as it doesn’t
               directly engage in trading activities.
             </p>
-            <h1 className="my-4 text-3xl font-bold uppercase flex items-center">
+            <h1 className="my-4 md:text-3xl text-xl font-bold uppercase flex items-center">
               <BiBullseye size="25px" className="mr-2" /> Benefits
             </h1>
             <p className="mb-5">
               “Secure Your Future: Invest in our Illiquidity Fund and enjoy
               expected returns of 7% to 10% per month.”
             </p>
-            <h1 className="my-4 text-3xl font-bold uppercase flex items-center">
+            <h1 className="my-4 md:text-3xl text-xl font-bold uppercase flex items-center">
               <BiBullseye size="25px" className="mr-2" />
               Why Choose Us ?
             </h1>
@@ -118,7 +118,7 @@ const Fund = () => {
               Trust in Experience: With our years of expertise, we provide
               liquidity to traders for profitable volume trading.
             </p>
-            <h1 className="my-4 text-3xl font-bold uppercase flex items-center">
+            <h1 className="my-4 md:text-3xl text-xl font-bold uppercase flex items-center">
               <BiBullseye size="25px" className="mr-2" />
               Call to Action (CTA)
             </h1>
