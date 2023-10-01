@@ -5,29 +5,29 @@ const Navbar = () => {
   const navItem = (
     <>
       <li className="mr-2">
-        <a href="#affiliate">Affiliate</a>
+        <a href="/#affiliate">Affiliate</a>
       </li>
       <li className="mr-2">
-        <a href="#service">Services</a>
+        <a href="/#service">Services</a>
       </li>
       <li className="mr-2">
-        <a href="#resource">Resources</a>
+        <a href="/#resource">Resources</a>
       </li>
       <li className="mr-2">
-        <a href="#review">Testimonials</a>
+        <a href="/#review">Testimonials</a>
       </li>
       <li className="mr-2">
-        <a href="#faq ">FAQ</a>
+        <a href="/#faq ">FAQ</a>
       </li>
       <li className="mr-2">
-        <a href="#footer">Contact Us</a>
+        <a href="/#footer">Contact Us</a>
       </li>
     </>
   );
   return (
     <div className="max-w-screen-xl navbar fixed z-10 opacity-90 bg-black  font-bold p-4">
       <div className="navbar-start">
-        <a href="# " className=" flex justify-center items-center">
+        <a href="/ " className=" flex justify-center items-center">
           <img src={logo} alt="logo" className="md:w-12 w-8" />
           <p className="text-white pl-2 md:text-xl text-sm">
             Vantage Capital FX
@@ -50,11 +50,14 @@ const Navbar = () => {
             className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#202e3d]  shadow-white shadow-lg drop-shadow-2xl"
           >
             <div className="card-body">
-              <span className="font-bold text-lg">The Liquid Fund</span>
-              <span className="text-info">Subtotal: $999</span>
+              <span className="font-bold text-lg ">The Liquid Fund</span>
+              <span className=" text-secondary">
+                Cash Flow <br /> Less Risk <br />
+                Profit Rate : %4 - %7 (Monthly)
+              </span>
               <div className="card-actions">
                 <Link to="fund">
-                  <button className="btn btn-primary btn-block">
+                  <button className="btn btn-primary btn-outline w-40">
                     Join Fund
                   </button>
                 </Link>

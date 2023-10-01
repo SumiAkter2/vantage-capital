@@ -1,0 +1,18 @@
+.info-container {
+    background: url('../../assets/Home/Banner/about.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    /* height: 400px; */
+    /* width: 700px; */
+
+
+}
+
+@media screen and (max-width:560px) {
+    .info-container {
+        height: 400px;
+        width: 360px;
+    }
+}
