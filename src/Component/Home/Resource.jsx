@@ -28,12 +28,11 @@ const Resource = () => {
         <h1 className="text-5xl font-bold text-primary text-center mb-8">
           Investor Resources
         </h1>
-        <div className="hidden md:block">
+        <div className="hidden lg:block md:hidden">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
             centeredSlides={true}
-            
             style={{
               "--swiper-navigation-color": "#1ba9ca",
               "--swiper-pagination-color": "#1ba9ca",
@@ -64,10 +63,10 @@ const Resource = () => {
           </Swiper>
         </div>
 
-        <div className="grid md:hidden px-6">
+        <div className="grid lg:hidden px-6 md:grid-cols-1 grid-cols-1 gap-5">
           {resourceInfo.map((info) => (
             <div key={info.id}>
-              <div className="card md:w-96 md:h-[280px] bg-white shadow-xl text-black p-6 my-4">
+              <div className="card md:w-96 md:h-[280px] bg-white shadow-xl text-black p-6 my-4 mx-auto">
                 <figure>
                   <img className="w-16 " src={info.img} alt="icon" />
                 </figure>
